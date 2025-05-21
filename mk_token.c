@@ -6,7 +6,7 @@
 /*   By: sael-kha <sael-kha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/23 14:44:40 by sael-kha          #+#    #+#             */
-/*   Updated: 2025/05/13 20:31:54 by sael-kha         ###   ########.fr       */
+/*   Updated: 2025/05/17 16:33:23 by sael-kha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -109,5 +109,5 @@ t_command	*token_input(char *input)
 		else
 			link_list(head, current);
 	}
-	return (mk_command(head));
+	return (mk_command(head, NULL));
 }
