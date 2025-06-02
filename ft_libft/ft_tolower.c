@@ -12,9 +12,6 @@
 
 int	ft_tolower(int ch)
 {
-	unsigned char	un_ch;
-
-	un_ch = (unsigned char)ch;
 	if (ch < 0 || ch > 255)
 		return (ch);
 	if (ch >= 65 && ch <= 90)
